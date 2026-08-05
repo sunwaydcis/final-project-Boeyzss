@@ -1,0 +1,181 @@
+/* External asset record: original coursework CSS; no third-party visual assets used. */
+.root {
+  -fx-font-family: "Inter", "Avenir Next", "Segoe UI", sans-serif;
+  -fx-font-size: 13px;
+  -fx-background-color: #f3f6fa;
+  -fx-text-fill: #172033;
+}
+
+.sidebar {
+  -fx-background-color: linear-gradient(to bottom, #10233f, #0b1830);
+}
+
+.brand-eyebrow, .nav-heading {
+  -fx-text-fill: #64d5c4;
+  -fx-font-size: 10px;
+  -fx-font-weight: 800;
+  -fx-letter-spacing: 1.2px;
+}
+
+.brand-title {
+  -fx-text-fill: white;
+  -fx-font-size: 25px;
+  -fx-font-weight: 800;
+}
+
+.brand-subtitle {
+  -fx-text-fill: #b8c8df;
+  -fx-font-size: 15px;
+}
+
+.nav-heading {
+  -fx-padding: 24 10 4 10;
+}
+
+.nav-button {
+  -fx-background-color: transparent;
+  -fx-text-fill: #dce7f7;
+  -fx-padding: 11 14;
+  -fx-background-radius: 8;
+  -fx-cursor: hand;
+}
+
+.nav-button:hover, .nav-button:focused {
+  -fx-background-color: #193858;
+  -fx-text-fill: white;
+}
+
+.sidebar-footer {
+  -fx-text-fill: #8fa4bf;
+  -fx-font-size: 11px;
+  -fx-padding: 12 10 0 10;
+}
+
+.page-title {
+  -fx-font-size: 28px;
+  -fx-font-weight: 800;
+  -fx-text-fill: #14233b;
+}
+
+.page-subtitle, .helper-text {
+  -fx-text-fill: #62718a;
+}
+
+.section-title {
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #192a44;
+}
+
+.panel, .metric-card, .quote-card {
+  -fx-background-color: white;
+  -fx-background-radius: 12;
+  -fx-border-color: #dfe7f1;
+  -fx-border-radius: 12;
+  -fx-padding: 18;
+  -fx-effect: dropshadow(gaussian, rgba(26, 45, 74, 0.06), 16, 0.1, 0, 4);
+}
+
+.metric-card {
+  -fx-min-width: 170;
+}
+
+.metric-label {
+  -fx-text-fill: #66758e;
+  -fx-font-size: 12px;
+}
+
+.metric-value {
+  -fx-text-fill: #132540;
+  -fx-font-size: 23px;
+  -fx-font-weight: 800;
+}
+
+.quote-card {
+  -fx-background-color: #eaf8f5;
+  -fx-border-color: #bce8df;
+}
+
+.quote-text {
+  -fx-text-fill: #164a45;
+  -fx-font-size: 14px;
+  -fx-line-spacing: 4px;
+}
+
+.button {
+  -fx-padding: 9 15;
+  -fx-background-radius: 8;
+  -fx-border-radius: 8;
+  -fx-cursor: hand;
+}
+
+.primary-button {
+  -fx-background-color: #087f73;
+  -fx-text-fill: white;
+  -fx-font-weight: 700;
+}
+
+.primary-button:hover, .primary-button:focused {
+  -fx-background-color: #06675f;
+}
+
+.text-field, .text-area, .combo-box, .date-picker {
+  -fx-background-color: white;
+  -fx-border-color: #cbd7e6;
+  -fx-border-radius: 7;
+  -fx-background-radius: 7;
+  -fx-padding: 6;
+}
+
+.text-field:focused, .text-area:focused, .combo-box:focused, .date-picker:focused {
+  -fx-border-color: #159b8b;
+  -fx-effect: dropshadow(gaussian, rgba(21, 155, 139, 0.18), 7, 0, 0, 0);
+}
+
+.table-view {
+  -fx-background-color: white;
+  -fx-border-color: #dfe7f1;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+  -fx-padding: 4;
+}
+
+.table-view .column-header-background {
+  -fx-background-color: #edf3f8;
+}
+
+.table-view .column-header, .table-view .filler {
+  -fx-background-color: transparent;
+  -fx-padding: 9 6;
+}
+
+.table-row-cell {
+  -fx-cell-size: 42px;
+  -fx-border-color: transparent transparent #edf1f6 transparent;
+}
+
+.table-row-cell:selected {
+  -fx-background-color: #dff4ef;
+  -fx-text-background-color: #173b36;
+}
+
+.status-text {
+  -fx-padding: 8 0 0 0;
+  -fx-wrap-text: true;
+}
+
+.status-success {
+  -fx-text-fill: #087f5b;
+}
+
+.status-error {
+  -fx-text-fill: #b42318;
+  -fx-font-weight: bold;
+}
+
+.notification {
+  -fx-background-color: #e7edf5;
+  -fx-text-fill: #41536d;
+  -fx-padding: 9 18;
+  -fx-border-color: #d5dfeb transparent transparent transparent;
+}
