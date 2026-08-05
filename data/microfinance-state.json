@@ -1,0 +1,112 @@
+{
+  "borrowers": [
+    {
+      "id": {
+        "value": "7daa5c1a-f243-4963-93c8-b3760c0640aa"
+      },
+      "fullName": "jjjj",
+      "phone": "0124663138",
+      "nationalId": "0101010",
+      "monthlyIncome": "100.00",
+      "address": "eee",
+      "createdOn": "2026-08-05"
+    }
+  ],
+  "loans": [
+    {
+      "id": {
+        "value": "9f22c60b-023f-4424-a742-a5f1ffa26cbf"
+      },
+      "borrowerId": {
+        "value": "7daa5c1a-f243-4963-93c8-b3760c0640aa"
+      },
+      "principal": "1000.00",
+      "annualRatePercent": "8.00",
+      "termMonths": 12,
+      "disbursedOn": "2026-08-05",
+      "installments": [
+        {
+          "number": 1,
+          "dueDate": "2026-09-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 2,
+          "dueDate": "2026-10-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 3,
+          "dueDate": "2026-11-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 4,
+          "dueDate": "2026-12-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 5,
+          "dueDate": "2027-01-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 6,
+          "dueDate": "2027-02-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 7,
+          "dueDate": "2027-03-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 8,
+          "dueDate": "2027-04-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 9,
+          "dueDate": "2027-05-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 10,
+          "dueDate": "2027-06-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 11,
+          "dueDate": "2027-07-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        },
+        {
+          "number": 12,
+          "dueDate": "2027-08-05",
+          "amountDue": "90.00",
+          "amountPaid": "90.00"
+        }
+      ],
+      "payments": [
+        {
+          "id": {
+            "value": "fa055db8-8efb-4931-b054-4ea41493a732"
+          },
+          "amount": "1080.00",
+          "paidOn": "2026-08-05"
+        }
+      ]
+    }
+  ]
+}
